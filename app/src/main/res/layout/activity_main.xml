@@ -5,15 +5,23 @@
     android:orientation="vertical"
     android:padding="19dp">
     <Spinner
+        android:id="@+id/sColors"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="16dp"></Spinner>
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:entries="@array/flower_colors"></Spinner>
     <Button
+        android:id="@+id/bFindFlowers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="16dp"></Button>
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:text="@string/find_flowers"></Button>
     <TextView
+        android:id="@+id/tvFlowers"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="16dp"></TextView>
+        android:padding="16dp"
+        android:layout_gravity="center"></TextView>
 </LinearLayout>
